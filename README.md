@@ -4,7 +4,8 @@ GMM -python
 POR: Franco Chavez Ponce, Andre Mogrovejo Martinez
 
 Falta implementar la convergencia, se uso datos aleatorios para los parametros iniciales de theta
-REFERENCIAS:
+
+REFERENCIAS USADAS:
 https://brilliant.org/wiki/gaussian-mixture-model/
 https://www.geeksforgeeks.org/gaussian-mixture-model/
 https://towardsdatascience.com/gaussian-mixture-modelling-gmm-833c88587c7f
