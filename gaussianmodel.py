@@ -12,7 +12,7 @@ import seaborn as sns  # para graficos de histogramas de los datos
 import numpy as np  # trabajo con matrices
 import matplotlib.pyplot as plt  # trabajo con gráficos
 from scipy.stats import norm
-import matplotlib.gridspec as gridspec
+
 
 sns.set_style("white")
 
@@ -81,7 +81,6 @@ parametros_theta = dict(
     return (1 / np.sqrt(2 * np.pi * covarianza_x)) * np.exp(-(1 / 2) *
      np.transpose(X - media_x_i) * (1 / covarianza_x) * (X - media_x_i))
 """
-print parametros_theta[media]
 
 # De acuerdo a the diagonal covariance matrix case podemos definir a la distribución gaussiana multivariable como una
 # multiplicacion de univariables aplicada a cada caracteristica en la posicion que se esta tomando
